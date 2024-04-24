@@ -12,8 +12,8 @@ const saveFile = async () => {
 
 <template>
   <h1>{{ msg }}</h1>
-  <button @click="openFile">打开文件</button>
-  <button @click="saveFile">保存文件</button>
+  <button @click="openFile">open file</button>
+  <button @click="saveFile">save file</button>
 
 </template>
 
